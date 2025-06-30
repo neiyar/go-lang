@@ -7,11 +7,11 @@ import (
 )
 
 func main() {
-	fmt.Print("hello world!");
+	fmt.Print("hello world neiyar!");
 
      app:=fiber.New()
 	 app.Get("/abc",func(c*fiber.Ctx)error  {
-		return c.SendString("hello world!")
+		return c.SendString("hello world Neiyar Subhani!")
 	 })
 	 app.Listen(":3000")
 }
