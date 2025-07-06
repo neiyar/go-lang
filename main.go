@@ -117,13 +117,14 @@ func AddOperation(c *fiber.Ctx) error {
 }
 
 type AddOperationRequest struct {
-	Num1 int  `json:"num1"`
-	Num2 int  `json:"num2"`
+	Number1 int  `json:"num1"`
+	Number2 int  `json:"num2"`
 }
 
 type AddOperationResponse struct {
 	Result int `json:"result"`
 }
+<<<<<<< HEAD
 	*/
 
 	
@@ -170,3 +171,7 @@ func FetchAllBanksQuery(tx *sql.Tx, pointerErr *error) []FetchAllBanksOutput {
 		}
 	}).([]FetchAllBanksOutput)
 }
+=======
+
+	
+>>>>>>> eca95fd9c09213a6c4724ccb85e13076b22cc7a9
